@@ -1,0 +1,3 @@
+#Assignment Details
+
+The goal of this assignment is to assess your ability to design and implement a practical solution using AWS services. Your task is to create a DynamoDB table to store user data. Design this table with a schema suitable for querying the latest 10 records added to it. Create an API to add users to this table. Build an AWS Lambda function that queries this DynamoDB table every X hours (you can define a reasonable value for X) and sends an email containing the latest 10 records to your email address. You can use AWS Simple Email Service (SES) or any other email service of your choice for sending the email. Use a burner or test AWS account to host and deploy the services. Create all infrastructure using a CDK only.
